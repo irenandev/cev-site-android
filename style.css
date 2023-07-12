@@ -1,0 +1,32 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: 'Android';
+  src: url(fonts/idroid.otf) format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  /* colors */
+  --cor0: #C5EBD6;
+  --cor1: #83E1AD;
+  --cor0: #3DDC84;
+  --cor0: #2FA866;
+  --cor0: #1A5C37;
+  --cor0: #063D1E;
+  /* fonts */
+  --f-padrão: Arial, Helvetica, sans-serif;
+  --f-titulo: 'Bebas Neue', cursive;
+  --f-android: 'Android', sans-serif;
+  /* font-size */
+  --fs-normal: 16px;
+  --fs-medium: 24px;
+  --fs-bold: 28px;
+  --fs-bolder: 48px;
+}
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
