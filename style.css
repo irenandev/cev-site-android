@@ -50,6 +50,32 @@ strong {
   color: var(--cor3);
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+picture img {
+  width: 100%;
+}
+
+.video {
+  position: relative;
+  background-color: var(--cor4);
+  height: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 15px;
+  padding-bottom: 59%;
+}
+
+.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
 body {
   background-color: var(--cor1);
   font-family: var(--f-padrão);
